@@ -4,8 +4,8 @@ if (isNumeric(integer)){
     let string = "";
     for (let idx = 0; idx < integer; idx++){
         console.log(string += '#');
-    }}
-
+    }
+}
 
 function isNumeric(str) {
     let code, i, len;
